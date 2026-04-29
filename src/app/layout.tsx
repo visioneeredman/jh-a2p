@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { DM_Serif_Display, Inter } from "next/font/google";
-import Script from "next/script";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
@@ -17,22 +16,22 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Justin Holland — Human Potential Speaker & Coach",
+  title: "Holland Solutions LLC | Coaching & Speaking Services",
   description:
-    "Justin Holland is a thought leader in consciousness and human potential. Speaker, coach, and author of the principle: once you see it, you can't unsee it.",
+    "Holland Solutions LLC provides professional coaching and speaking services helping individuals and organizations break through the patterns holding them back.",
   openGraph: {
-    title: "Justin Holland — Human Potential Speaker & Coach",
+    title: "Holland Solutions LLC | Coaching & Speaking Services",
     description:
-      "Once you see it, you can't unsee it. Justin Holland helps people recognize the blind spots that are creating the life they don't want.",
+      "Professional coaching and speaking services. Holland Solutions LLC helps people identify and overcome the blind spots driving unwanted patterns in life and business.",
     url: "https://justin.hollandsolutionsllc.com",
-    siteName: "Justin Holland | Holland Solutions LLC",
+    siteName: "Holland Solutions LLC",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Justin Holland — Human Potential Speaker & Coach",
+    title: "Holland Solutions LLC | Coaching & Speaking Services",
     description:
-      "Once you see it, you can't unsee it. Justin Holland helps people recognize the blind spots that are creating the life they don't want.",
+      "Professional coaching and speaking services. Holland Solutions LLC helps people identify and overcome the blind spots driving unwanted patterns.",
   },
   robots: {
     index: true,
@@ -47,23 +46,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-WLEQG4SQV4"
-          strategy="afterInteractive"
-        />
-        <Script id="ga4-init" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-WLEQG4SQV4');
-          `}
-        </Script>
-      </head>
-      <body
-        className={`${dmSerif.variable} ${inter.variable} antialiased`}
-      >
+      <body className={`${dmSerif.variable} ${inter.variable} antialiased`}>
         <Nav />
         <main>{children}</main>
         <Footer />
