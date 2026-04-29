@@ -88,7 +88,7 @@ export default function Footer() {
                 Justin Holland
               </Link>
               <p style={{ fontSize: "0.875rem", maxWidth: "20rem", lineHeight: 1.6 }}>
-                Thought leader in consciousness, human potential, and personal development.
+                Justin Holland | Holland Solutions LLC. Coaching and speaking on human potential and blind spots.
               </p>
             </div>
 
@@ -182,7 +182,7 @@ export default function Footer() {
             }}
           >
             <p style={{ fontSize: "0.8125rem" }}>
-              &copy; {new Date().getFullYear()} Justin Holland. All rights reserved.
+              &copy; {new Date().getFullYear()} Holland Solutions LLC. All rights reserved.
             </p>
             <div style={{ display: "flex", gap: "1.5rem" }}>
               <Link

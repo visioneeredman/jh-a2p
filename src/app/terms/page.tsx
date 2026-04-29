@@ -47,7 +47,7 @@ export default function Terms() {
         <div className="max-w-3xl mx-auto px-6">
           <div style={{ fontSize: "1rem", lineHeight: 1.75, color: "#2a2018" }}>
             <p style={{ marginBottom: "2rem" }}>
-              By using iamjustinholland.com or providing your contact information through any form
+              By using justin.hollandsolutionsllc.com or providing your contact information through any form
               on this site, you agree to these Terms of Service. Please read them carefully.
             </p>
 
@@ -64,7 +64,7 @@ export default function Terms() {
               1. Use of This Site
             </h2>
             <p style={{ marginBottom: "1.5rem" }}>
-              This website is operated by Justin Holland, a sole proprietor offering personal
+              This website is operated by Justin Holland through Holland Solutions LLC, offering personal
               coaching and speaking services. You agree to use this site only for lawful purposes
               and in a way that does not infringe the rights of others.
             </p>
@@ -82,7 +82,7 @@ export default function Terms() {
               2. SMS Messaging Program
             </h2>
             <p style={{ marginBottom: "1rem" }}>
-              <strong>Program Name:</strong> Justin Holland SMS
+              <strong>Program Name:</strong> Holland Solutions LLC SMS
             </p>
             <p style={{ marginBottom: "1rem" }}>
               <strong>Program Description:</strong> This program sends two types of messages to
@@ -103,7 +103,7 @@ export default function Terms() {
               <strong>Opt-Out:</strong> You can cancel SMS messages at any time. Simply text
               &quot;STOP&quot; to the number messaging you. Upon sending STOP, you will receive a
               confirmation SMS. After that, you will no longer receive SMS messages from this
-              program. To rejoin, sign up again at iamjustinholland.com/contact or text
+              program. To rejoin, sign up again at justin.hollandsolutionsllc.com/contact or text
               &quot;START&quot; to the same number.
             </p>
 
@@ -240,7 +240,7 @@ export default function Terms() {
               8. Contact
             </h2>
             <p style={{ marginBottom: "0.5rem" }}>
-              <strong>Justin Holland</strong>
+              <strong>Holland Solutions LLC / Justin Holland</strong>
             </p>
             <p style={{ marginBottom: "0.5rem" }}>
               Email:{" "}
@@ -251,7 +251,7 @@ export default function Terms() {
                 justin@iamjustinholland.com
               </a>
             </p>
-            <p style={{ marginBottom: "2.5rem" }}>Website: iamjustinholland.com</p>
+            <p style={{ marginBottom: "2.5rem" }}>Website: justin.hollandsolutionsllc.com</p>
 
             <div
               style={{

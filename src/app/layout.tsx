@@ -24,8 +24,8 @@ export const metadata: Metadata = {
     title: "Justin Holland — Human Potential Speaker & Coach",
     description:
       "Once you see it, you can't unsee it. Justin Holland helps people recognize the blind spots that are creating the life they don't want.",
-    url: "https://iamjustinholland.com",
-    siteName: "Justin Holland",
+    url: "https://justin.hollandsolutionsllc.com",
+    siteName: "Justin Holland | Holland Solutions LLC",
     type: "website",
   },
   twitter: {

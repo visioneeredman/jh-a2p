@@ -53,8 +53,8 @@ export default function PrivacyPolicy() {
             }}
           >
             <p style={{ marginBottom: "2rem" }}>
-              Justin Holland (&quot;I,&quot; &quot;me,&quot; or &quot;my&quot;) operates the website
-              iamjustinholland.com. This Privacy Policy describes how I collect, use, and protect
+              Justin Holland, operating as Holland Solutions LLC (&quot;I,&quot; &quot;me,&quot; or &quot;my&quot;) operates the website
+              justin.hollandsolutionsllc.com. This Privacy Policy describes how I collect, use, and protect
               information you provide when you visit this site or contact me through any form on it.
             </p>
 
@@ -289,7 +289,7 @@ export default function PrivacyPolicy() {
               For questions about this Privacy Policy or to exercise your rights, contact me at:
             </p>
             <p style={{ marginBottom: "0.5rem" }}>
-              <strong>Justin Holland</strong>
+              <strong>Justin Holland / Holland Solutions LLC</strong>
             </p>
             <p style={{ marginBottom: "0.5rem" }}>
               Email:{" "}
@@ -300,7 +300,7 @@ export default function PrivacyPolicy() {
                 justin@iamjustinholland.com
               </a>
             </p>
-            <p style={{ marginBottom: "2.5rem" }}>Website: iamjustinholland.com</p>
+            <p style={{ marginBottom: "2.5rem" }}>Website: justin.hollandsolutionsllc.com</p>
 
             <div
               style={{
