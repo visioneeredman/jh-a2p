@@ -6,6 +6,7 @@ import { useState } from "react";
 const navLinks = [
   { href: "/about", label: "About" },
   { href: "/services", label: "Services" },
+  { href: "/workshop", label: "Free Workshop" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -40,7 +41,7 @@ export default function Nav() {
               key={link.href}
               href={link.href}
               style={{
-                color: "#9a9080",
+                color: link.href === "/workshop" ? "#C4813A" : "#9a9080",
                 fontFamily: "var(--font-inter), system-ui, sans-serif",
                 fontSize: "0.875rem",
                 letterSpacing: "0.06em",
@@ -49,17 +50,17 @@ export default function Nav() {
                 transition: "color 0.15s ease",
               }}
               onMouseEnter={(e) => (e.currentTarget.style.color = "#F5F0E8")}
-              onMouseLeave={(e) => (e.currentTarget.style.color = "#9a9080")}
+              onMouseLeave={(e) => (e.currentTarget.style.color = link.href === "/workshop" ? "#C4813A" : "#9a9080")}
             >
               {link.label}
             </Link>
           ))}
           <Link
-            href="/contact"
+            href="/workshop"
             className="btn-primary"
             style={{ fontSize: "0.8125rem", padding: "0.625rem 1.25rem" }}
           >
-            Request a Consultation
+            Join Free Workshop
           </Link>
         </nav>
 
@@ -87,13 +88,13 @@ export default function Nav() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setOpen(false)}
-                style={{ color: "#F5F0E8", fontFamily: "var(--font-inter), system-ui, sans-serif", fontSize: "1rem", letterSpacing: "0.04em", textTransform: "uppercase", textDecoration: "none" }}
+                style={{ color: link.href === "/workshop" ? "#C4813A" : "#F5F0E8", fontFamily: "var(--font-inter), system-ui, sans-serif", fontSize: "1rem", letterSpacing: "0.04em", textTransform: "uppercase", textDecoration: "none" }}
               >
                 {link.label}
               </Link>
             ))}
-            <Link href="/contact" className="btn-primary" onClick={() => setOpen(false)} style={{ textAlign: "center", marginTop: "0.5rem" }}>
-              Request a Consultation
+            <Link href="/workshop" className="btn-primary" onClick={() => setOpen(false)} style={{ textAlign: "center", marginTop: "0.5rem" }}>
+              Join Free Workshop
             </Link>
           </div>
         </nav>
